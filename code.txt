@@ -1,0 +1,400 @@
+HTML:
+    Home:
+    
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>VILLAS4U | Home</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/indexStyle.css">
+    </head>
+    <body>
+        <!-- Header: -->
+        <?php include 'header.php';?>
+        <!-- End of header -->
+
+        <!-- Navbar: -->
+        <nav>
+            <div>
+                <img src="media/logo.png">
+                <a href="contact">Contact</a>
+                <a href="villas">Villas</a>
+                <a href="">Home</a>
+            </div>
+        </nav>
+        <!-- End of navbar -->
+
+        <img id="logo2" src="media/logo2.png">
+
+        <!-- Grid: -->
+        <div id="gridDiv">
+            <div><a href="villas/nuth/anthemiahof4"><img src="media/anthemiahof1.jpeg" alt=""></a></div>
+            <div><a href="villas/dedemsvaart/oostwijk2"><img src="media/oostwijk1.jpeg" alt=""></a></div>
+            <div><a href="villas/ouddorp/oudeNieuwlandseweg25"><img src="media/oudeNieuwlandseweg1.jpeg" alt=""></a></div>
+            <div><a href="villas/zeewolde/seleen10"><img src="media/seleen1.jpeg" alt=""></a></div>
+            <div><a href="villas/eelderwolde/warmoltseiland24"><img src="media/warmoltseiland1.jpeg" alt=""></a></div>
+            <div><a href="villas/sonEnBreugel/waterjuffer15"><img src="media/waterjuffer1.jpeg" alt=""></a></div>
+        </div>
+        <!-- End of grid -->
+    </body>
+</html>
+
+    Villas:
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>VILLAS4U | Villas</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/villasStyle.css">
+    </head>
+    <body>
+        <!-- Header: -->
+        <?php include '../header.php';?>
+        <!-- End of header -->
+
+        <!-- Navbar: -->
+        <nav>
+            <div>
+                <img src="../media/logo.png">
+                <a href="../contact">Contact</a>
+                <a href="">Villas</a>
+                <a href="../">Home</a>
+            </div>
+        </nav>
+        <!-- End of navbar -->
+
+        <!-- List: -->
+        <div id="listDiv">
+            <div>
+                <a href="nuth/anthemiahof4">
+                    <div><img src="../media/anthemiahof1.jpeg" alt=""></div>
+                    <div>
+                        <h1>Anthemiahof 4</h1>
+                        <p>6361 JP Nuth Vaesrade</p>
+                        <p>€ 1,095,000 k.k.</p>
+                        <p>322 m² / 540 m² ● 14 rooms</p>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="dedemsvaart/oostwijk2">
+                    <div><img src="../media/oostwijk1.jpeg" alt=""></div>
+                    <div>
+                        <h1>Oostwijk 2</h1>
+                        <p>7701 PT Dedemsvaart Dedemsvaart-Zuidwest</p>
+                        <p>€ 1,500,000 k.k.</p>
+                        <p>481 m² / 8,498 m² ● 7 rooms</p>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="ouddorp/oudeNieuwlandseweg25">
+                    <div><img src="../media/oudeNieuwlandseweg1.jpeg" alt=""></div>
+                    <div>
+                        <h1>Oude Nieuwlandseweg 25</h1>
+                        <p>3253 LL Ouddorp Ouddorp buitengebied</p>
+                        <p>€ 1,500,000 k.k.</p>
+                        <p>217 m² / 2,658 m² ● 6 rooms</p>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="zeewolde/seleen10">
+                    <div><img src="../media/seleen1.jpeg" alt=""></div>
+                    <div>
+                        <h1>Seleen 10</h1>
+                        <p>3894 DH Zeewolde Buurt 4</p>
+                        <p>€ 1,375,000 k.k.</p>
+                        <p>305 m² / 934 m² ● 7 rooms</p>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="eelderwolde/warmoltseiland24">
+                    <div><img src="../media/warmoltseiland1.jpeg" alt=""></div>
+                    <div>
+                        <h1>Warmoltseiland 24</h1>
+                        <p>9766 VJ Eelderwolde Verspreide huizen Eelderwolde</p>
+                        <p>€ 1,090,000 k.k.</p>
+                        <p>214 m² / 646 m² ● 7 rooms</p>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="sonEnBreugel/waterjuffer15">
+                    <div><img src="../media/waterjuffer1.jpeg" alt=""></div>
+                    <div>
+                        <h1>Waterjuffer 15</h1>
+                        <p>5692 WV Son en Breugel Verspreide huizen Son</p>
+                        <p>€ 1,290,000 k.k.</p>
+                        <p>232 m² / 719 m² ● 6 rooms</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- End of list -->
+    </body>
+</html>
+
+    Villa:
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>VILLAS4U | Dedemsvaart Oostwijk 2</title>
+        <link rel="stylesheet" href="../../../css/style.css">
+        <link rel="stylesheet" href="../../../css/villaStyle.css">
+    </head>
+    <body>
+        <!-- Header: -->
+        <?php include '../../../header.php';?>
+        <!-- End of header -->
+
+        <!-- Navbar: -->
+        <nav>
+            <div>
+                <img src="../../../media/logo.png">
+                <a href="../../../contact">Contact</a>
+                <a href="../../../villas">Villas</a>
+                <a href="../../../">Home</a>
+            </div>
+        </nav>
+        <!-- End of navbar -->
+
+        <!-- House: -->
+        <div id="houseDiv">
+            <div id="gridDiv">
+                <div><a href=""><img src="../../../media/oostwijk1.jpeg" alt=""></a></div>
+                <div><a href=""><img src="../../../media/oostwijk2.jpeg" alt=""></a></div>
+                <div><a href=""><img src="../../../media/oostwijk3.jpeg" alt=""></a></div>
+                <div><a href=""><img src="../../../media/oostwijk4.jpeg" alt=""></a></div>
+                <div><a href=""><img src="../../../media/oostwijk6.jpeg" alt=""></a></div>
+            </div>
+            <hr>
+            <h1>Oostwijk 2</h1>
+            <p>7701 PT Dedemsvaart</p>
+            <p> 481 m² living area - 8.498 m² plot size - 5 bedrooms</p>
+            <h3>€ 1,500.000 k.k.</h3>
+            <hr>
+            <h2>Description</h2>
+            <p>
+            In een landelijke omgeving net buiten het dorp gelegen schitterend in 2009 gebouwd landhuis met 2 grote schuren.
+            Het geheel ligt op een zeer royale kavel van 8.498 m².
+
+            Het landhuis is gelegen op een schitterende locatie omringd door een grote variëteit aan vrijstaande woningen op riante kavels en grenst aan een fraaie waterpartij.<br>
+                <br>
+            De gemeente Hardenberg heeft aangegeven in principe bereid te zijn om medewerking te verlenen aan de bouw van een schuurwoning op basis van het "één-erf gedachte" en mits de bestaande schuren worden gesloopt.
+
+            De extra kavel biedt de mogelijkheid om samen en toch apart bij elkaar te kunnen wonen! De kavel (maximaal ca. 2.000 - 2.500 m²) is vooralsnog niet los van de woning te kopen. De bestaande schuren worden bij deze optie door de verkoper verwijderd.
+            </p>
+        </div>
+        <!-- End of house -->
+    </body>
+</html>
+
+CSS:
+    Home:
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color:#181a1b;
+    color: white;
+}
+
+/* Header: */
+header{
+    padding: 1px;
+    text-align: center;
+    background: #004996;
+    color: white;
+    font-size: 20px;
+}
+/* End of header */
+
+/* Navbar: */
+nav{
+    background-color: #e47c1b;
+    position: sticky;
+    top: 0;
+}
+
+nav > div{
+    overflow: hidden;
+    width: 75%;
+    left: 0;
+    right: 0;
+    margin: 0 auto 0 auto;
+}
+
+nav > div > img{
+    width: 42px;
+}
+
+nav > div > a{
+    float: right;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav > div > a:hover{
+    background-color: #964e0a;
+}
+/* End of navbar */
+
+    Villas:
+
+/* Navbar: */
+nav > div > a:nth-of-type(2){
+    background-color: #002853;
+    color: white;
+    pointer-events: none;
+}
+/* End of navbar */
+
+/* List: */
+#listDiv{
+    height: 100%;
+    width: 50%;
+    min-width: 710px;
+    left: 0;
+    right: 0;
+    margin: 0 auto 0 auto;
+}
+
+#listDiv > div{
+    width: 100%;
+    height: 200px;
+}
+
+#listDiv > div{
+    width: 710px;
+    min-width: 710px;
+    margin: 0 0 25px 0;
+}
+
+#listDiv > div:nth-of-type(1){
+    margin: 25px 0 25px 0;
+}
+
+#listDiv > div > a{
+    text-decoration: none;
+    color: #c8c3bc;
+}
+
+#listDiv > div > a > div:nth-of-type(1){
+    float: left;
+    height: 100%;
+}
+
+#listDiv > div > a > div:nth-of-type(1) > img{
+    height: 100%;
+}
+
+#listDiv > div > a > div:nth-of-type(2){
+    display: inline-block;
+    height: 100%;
+    padding: 0 0 0 10px;
+}
+
+#listDiv > div > a > div:nth-of-type(2) > h1{
+    color: #4fbeff;
+}
+
+#listDiv > div > a > div:nth-of-type(2) > p{
+    padding: 0 0 10px 0;
+}
+
+#listDiv > div > a > div:nth-of-type(2) > p:nth-of-type(2){
+    font-weight: 600;
+}
+/* End of list */
+
+    Villa:
+
+// House:
+// Grid:
+#houseDiv{
+    width: 75%;
+    left: 0;
+    right: 0;
+    margin: 0 auto 0 auto;
+}
+
+#gridDiv{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 1%;
+    grid-row-gap: 2%;
+    margin: 15px 0 0 0;
+}
+
+#gridDiv > div,
+#gridDiv > div > a,
+#gridDiv > div > a > img{
+    width: 100%;
+}
+
+#gridDiv > div:nth-of-type(1){grid-area: 1 / 1 / 3 / 3;}
+#gridDiv > div:nth-of-type(2){grid-area: 1 / 3 / 2 / 4;}
+#gridDiv > div:nth-of-type(3){grid-area: 1 / 4 / 2 / 5;}
+#gridDiv > div:nth-of-type(4){grid-area: 2 / 3 / 3 / 4;}
+#gridDiv > div:nth-of-type(5){grid-area: 2 / 4 / 3 / 5;}
+// End of grid
+
+#houseDiv > hr:nth-of-type(1){
+    margin: 30px 0 0 0;
+}
+
+#houseDiv > h1:nth-of-type(1){
+    margin: 30px 0 5px 0;
+    color: #c8c3bc;
+}
+
+#houseDiv > p:nth-of-type(1){
+    margin: 0 0 20px 0;
+    color: #a8a095;
+}
+
+#houseDiv > p:nth-of-type(2){
+    margin: 0 0 20px 0;
+    color: #a8a095;
+}
+
+#houseDiv > h3:nth-of-type(1){
+    margin: 0 0 30px 0;
+    color: #c8c3bc;
+}
+
+#houseDiv > hr:nth-of-type(2){
+    margin: 0 0 30px 0;
+}
+
+#houseDiv > h2:nth-of-type(1){
+    margin: 0 0 20px 0;
+    color: #c8c3bc;
+}
+
+#houseDiv > p:nth-of-type(3){
+    color: #c8c3bc;
+}
+// End of house
